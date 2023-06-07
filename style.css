@@ -1,0 +1,482 @@
+body {
+    font-family: 'Inter', 'sans serif';
+    text-align: center;
+    background: #E6E6FA;
+}
+
+
+header {
+    background: linear-gradient(90deg,#C0C0C0,#696969 );
+    /*width: 1366px;
+    height: 520px;
+    left: 0px;
+    top: 0px;*/
+    padding: 20px 0;
+    height: 520px;
+}
+
+.topo{
+    position: relative;
+    margin: 0 auto ;
+}
+
+nav.menu-de-navegacao {
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 43px;
+    width: 1490px;
+    bottom: 50%;
+    right: 50%;
+    font-size: 23px;
+    font-weight: 400;
+    background: linear-gradient(90deg,#C0C0C0,#696969 );
+    text-decoration: none;
+}
+
+nav li{
+    position: relative;
+    display: inline;
+    margin: 0 0 0 43px;
+    top: 15px;
+    
+}
+
+.topo .menu-de-navegacao a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.dados {
+    position: absolute;
+    width: 817px;
+    height: 416px;
+    left: 106px;
+    top: 225px;
+}
+
+.dados {
+    position: absolute;
+    width: 817px;
+    height: 416px;
+    left: 200px;
+    top: 120px;
+    text-align: left;
+}
+
+.nome {
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.funcao {
+    font-size: 20px;
+    color: #FFFFFF
+}
+
+.email {
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    top: 155px;
+    color: #FFFFFF
+}
+
+.imagem-email {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 150px;
+    left: 10px;
+}
+
+.contato {
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    top: 205px;
+    color: #FFFFFF
+}
+
+.imagem-telefone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 200px;
+    left: 10px;
+}
+
+.cidade {
+    position: absolute;
+    font-size: 20px;
+    left: 50px; 
+    top: 255px;
+    color: #FFFFFF
+}
+
+.imagem-localização{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 250px;
+    left: 10px;
+}
+
+.avatar {
+    position: absolute;
+    width: 350px;
+    aspect-ratio: 1;
+    background-image: url(avatar.png);
+    background-position: center;
+    background-size: cover;
+    right: 250px;
+    top: 90px;
+    border-radius: 50%;
+   border: 18px solid #4F4F4F;
+}
+
+.imagem-linkedin {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 190px;
+    left: 1270px;
+}
+
+.imagem-gitHub {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 250px;
+    left: 1270px;
+}
+
+.imagem-instagram {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 310px;
+    left: 1270px;
+}
+
+main {
+
+}
+
+.sobre-mim p{
+    position: absolute;
+    width: 557px;
+    height: 214px;
+    left: 560px;
+    top: 500px;
+    padding: 120px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.foto-sobre-mim {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 600px;
+    left: 250px;
+}
+
+.titulo-formacao {
+    position: absolute;
+    width: 557px;
+    height: 37px;
+    left: -5px;
+    top: 920px;
+    font-size: 20px;
+}
+
+.formacao1{
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 230px;
+    top: 980px;
+    background: #696969;
+    border: 2px solid #000000;
+    padding: 21px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.formacao2 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 750px;
+    top: 980px;
+    border: 2px solid #000000;
+    padding: 30px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.formacao3 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 230px;
+    top: 1130px;
+    border: 2px solid #000000;
+    padding: 30px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.formacao4 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 750px;
+    top: 1130px;
+    border: 2px solid #000000;
+    padding: 35px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.titulo-experiencias {
+    position: absolute;
+    width: 557px;
+    height: 37px;
+    left: 7px;
+    top: 1300px;
+    font-size: 20px;
+}
+
+.experiencia1 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 230px;
+    top: 1360px;
+    border: 2px solid #000000;
+    padding: 30px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.experiencia2 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 750px;
+    top: 1360px;
+    border: 2px solid #000000;
+    padding: 21px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.titulo-habilidades {
+    position: absolute;
+    width: 557px;
+    height: 37px;
+    left: 7px;
+    top: 1520px;
+    font-size: 20px;
+}
+
+.habilidades1 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 230px;
+    top: 1580px;
+    border: 2px solid #000000;
+    padding: 30px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.habilidades2 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 750px;
+    top: 1580px;
+    border: 2px solid #000000;
+    padding: 35px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.habilidades3 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 230px;
+    top: 1728px;
+    border: 2px solid #000000;
+    padding: 30px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.habilidades4 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    left: 750px;
+    top: 1728px;
+    border: 2px solid #000000;
+    padding: 35px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.titulo-interesses{
+    position: absolute;
+    width: 557px;
+    height: 37px;
+    left: 7px;
+    top: 1885px;
+    font-size: 20px;
+}
+
+.imagem-ler {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 40px;
+    left: 260px;
+}
+
+.imagem-jogar {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 40px;
+    left: 330px;
+}
+
+.imagem-tv {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 40px;
+    left: 390px;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    padding: 40px 0;
+    width: 1490px;
+    height: 200px;
+    left: 0px;
+    top: 2050px;
+    background: linear-gradient(90deg,#C0C0C0,#696969 );
+
+}
+
+.dados-rodape a{
+    color: #FFFFFF;
+}
+
+.caixas1{
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    vertical-align: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 450px;
+    height: 80px;
+    left: 750px;
+    top: 1950px;
+    border: 2px solid #000000;
+    padding: 14px 40px;
+    background: #696969;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.dados-rodape{
+    position: absolute;  
+    text-align: center;
+    vertical-align: center;
+    /*width: 450px;
+    height: 100px;
+    left: 750px;
+    top: 1728px;*/
+    color: #FFFFFF;
+    font-size: 22px;
+}
